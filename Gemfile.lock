@@ -76,7 +76,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll
   jekyll_patternbot
 
 BUNDLED WITH
-   2.0.1
+   2.1.4
