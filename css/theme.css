@@ -6,10 +6,6 @@
   --color-neutral: #f2b8a4;
   --color-whatever: #a3666e;
 
-  --font-primary:
-  --font-secondary: 
-}
-
 html {
-  font-family: var (--font-primary);
+  font-family: var(--font-primary);
 }
