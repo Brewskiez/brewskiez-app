@@ -1,15 +1,15 @@
 :root {
-  --color-primary: #eeba6f;
+  --color-primary: #f2b8a4;
   --color-secondary: #ce6957;
   --color-primary-light: #fee9d8;
   --color-accent: #66242e;
-  --color-neutral: #f2b8a4;
+  --color-neutral: #eeba6f;
   --color-whatever: #a3666e;
 
-  --font-primary: "Baslow Condensed, sans-serif";
-  /* --font-secondary: */
+  --font-primary: 'Muli', sans-serif;
+  --font-secondary: 'Lato', sans-serif;
 }
 
 html {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
 }
