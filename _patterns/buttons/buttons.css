@@ -2,4 +2,5 @@
   background-color: var(--color-accent);
   border-color: var(--color-accent);
   color: #fff;
+  border-radius: 10px;
 }
