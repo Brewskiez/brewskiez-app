@@ -1,3 +1,7 @@
 hr {
   max-width: 5em;
 }
+
+red-type {
+  color: var(--color-accent);
+}
