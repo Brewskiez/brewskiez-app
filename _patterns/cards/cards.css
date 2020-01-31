@@ -114,32 +114,3 @@ img {
   line-height: 1.5;
   margin-bottom: 1.25rem;
 }
-
-.process {
-  text-decoration: none;
-}
-
-h3 {
-  padding-bottom: 0;
-  color: var(--color-primary-dark);
-}
-
-.insta {
-  font-family: var(--font-primary);
-}
-
-.insta:hover {
-  color: var(--color-primary-dark);
-}
-
-.email-me {
-  font-family: var(--font-primary);
-}
-
-.email-me:hover {
-  color: var(--color-primary-dark);
-}
-
-.phone-me {
-  color: var(--color-accent);
-}

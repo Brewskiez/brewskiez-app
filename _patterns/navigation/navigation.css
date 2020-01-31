@@ -1,0 +1,30 @@
+.masthead {
+  font-family: var(--font-primary);
+  background-color: var(--color-primary);
+  padding: 0;
+}
+
+.nav {
+  text-decoration: none;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .right-nav {
+    text-align: right;
+  }
+
+  .nav-gutter {
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+  }
+
+  .left-nav {
+    text-align: left;
+  }
+}
