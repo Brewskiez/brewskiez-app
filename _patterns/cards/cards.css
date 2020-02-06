@@ -1,3 +1,11 @@
 .hr-dashed {
   border-style: dashed;
 }
+
+.icon-arrow svg {
+  max-width: 40px;
+}
+
+.time {
+  display: inline;
+}

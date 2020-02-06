@@ -1,0 +1,24 @@
+description: |
+  These are cards.
+
+patterns:
+  location-card:
+    title: "Location Card"
+    description: |
+      This is a card that shows the location...
+    fields:
+      - name: title
+        type: string
+        example: "Tooth & Nail Brewery"
+      - name: address
+        type: string
+        example: "3 Irving Ave, Ottawa, ON K1Y 1Z2"
+      - name: walkingdistance
+        type: string
+        example: "10 min"
+      - name: drivingdistance
+        type: string
+        example: "2 min"
+      - name: logo
+        type: string
+        example: "btp-logo.jpg"

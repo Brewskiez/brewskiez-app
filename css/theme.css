@@ -6,10 +6,9 @@
   --color-neutral: #eeba6f;
   --color-whatever: #a3666e;
 
-  --font-primary: 'Muli', sans-serif;
-  --font-secondary: 'Lato', sans-serif;
+  --font-primary: "Barlow Condensed", sans-serif;
 }
 
 html {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
 }
