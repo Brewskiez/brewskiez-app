@@ -2,4 +2,26 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  font_url: ""
+  title: "brewskiez"
+  description: |
+    An app that allows young adults to seek out theeir favourite beers as well as keeping track of their favourite brewery locations in an organized manor.
+  font_url: "https://fonts.googleapis.com/css?family=Barlow+Condensed:400,400i,700,700i&display=swap"
+  colors:
+    background: "--color-primary-white"
+    accent: "--color-primary"
+    patterns:
+      brand-logos: "--color-secondary"
+    rationales:
+      typefaces.primary: |
+        Lato will be used as the primary font because it is simple and easy to read, pairing well with the secondary font.
+      typefaces.secondary: |
+        Barlow Condensed will be used as the secondary font because it is clean, modern and readable, pairing well with the primary font.
+      colors.primary: |
+        The primary colors are light and will be used for the background for most pages.
+      colors.secondary: |
+        The secondary color is another shade of red that will be used as the background for the beer type pages, as well as the settings page.
+      colors.accent: |
+        The accent colors is a light and darker tone of purple, pairing well with the others. These colours will be used for the buttons as well as the background for the Sign Up/Create account pages.
+    layouts:
+      default: |
+        The default layout should be used for every page, it includes the website's primary header and footer.

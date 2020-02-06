@@ -1,0 +1,10 @@
+.btn {
+background-color: var(--color-primary-white);
+color: var(--color-accent);
+text-decoration: none;
+}
+
+.btn:hover {
+background-color: var(--color-accent);
+color: var(--color-primary-white);
+}

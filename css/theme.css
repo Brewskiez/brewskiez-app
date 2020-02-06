@@ -1,15 +1,20 @@
 :root {
   --color-primary: #eeba6f;
+  --color-primary-white: #fff;
   --color-secondary: #ce6957;
   --color-primary-light: #fee9d8;
   --color-accent: #66242e;
   --color-neutral: #f2b8a4;
   --color-whatever: #a3666e;
 
-  --font-primary:
-  --font-secondary: 
+  --font-primary: "Lato", sans-serif;
+  --font-secondary: "Barlow Condensed", sans-serif;
 }
 
 html {
-  font-family: var (--font-primary);
+  font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
 }
