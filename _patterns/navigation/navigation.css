@@ -1,0 +1,39 @@
+.masthead {
+  font-family: var(--font-primary);
+  background-color: var(--color-secondary);
+}
+
+.nav {
+  text-decoration: none;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.nav a:hover {
+  color: var(--color-accent);
+}
+
+.i-30 {
+  height: 30px;
+  width: 30px;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .right-nav {
+    text-align: right;
+  }
+
+  .nav-gutter {
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+  }
+
+  .left-nav {
+    text-align: left;
+  }
+}
