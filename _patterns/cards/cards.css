@@ -23,6 +23,10 @@ img {
   vertical-align: middle;
 }
 
+.beer {
+  max-height: 60%;
+}
+
 .btn {
   background-color: white;
   border: 1px solid @gray-light;
