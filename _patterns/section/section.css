@@ -10,3 +10,8 @@
 hr {
   border-style: dashed;
 }
+
+.acronym-icon {
+  width: 60%;
+  height: 60%;
+}
