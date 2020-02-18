@@ -21,6 +21,10 @@ img {
   vertical-align: middle;
 }
 
+.beer {
+  max-height: 60%;
+}
+
 .btn {
   background-color: white;
   border: 1px solid @gray-light;
@@ -115,4 +119,14 @@ img {
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
+}
+
+dd, dt {
+  display: inline;
+}
+
+.icon {
+  position: absolute !important;
+  top: 0;
+  right: 0;
 }

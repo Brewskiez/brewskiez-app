@@ -6,6 +6,7 @@ patterns:
     title: "Location Card"
     description: |
       This is a card that shows the location...
+    width: 35em
     fields:
       - name: title
         type: string
@@ -22,3 +23,21 @@ patterns:
       - name: logo
         type: string
         example: "btp-logo.jpg"
+  favourite-card:
+    title: "Favourite Card"
+    description: |
+      This is a card that shows the location...
+    width: 35em
+    fields:
+      - name: beertype
+        type: string
+        example: "Beer Type"
+      - name: name
+        type: string
+        example: "Vimmon"
+      - name: description
+        type: string
+        example: "Insert small description about the beer here."
+      - name: image
+        type: string
+        example: "beer-icon-01.png"
