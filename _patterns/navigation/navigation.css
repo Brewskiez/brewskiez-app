@@ -35,5 +35,6 @@
 
   .left-nav {
     text-align: left;
+    align-content: left;
   }
 }
