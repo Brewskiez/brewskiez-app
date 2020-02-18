@@ -120,3 +120,13 @@ img {
   line-height: 1.5;
   margin-bottom: 1.25rem;
 }
+
+dd, dt {
+  display: inline;
+}
+
+.icon {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+}
