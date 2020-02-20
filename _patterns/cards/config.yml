@@ -41,8 +41,6 @@ patterns:
       - name: image
         type: string
         example: "beer-icon-01.png"
-<<<<<<< Updated upstream
-=======
   beer-1:
     title: "card"
     description: |
@@ -79,4 +77,3 @@ patterns:
     title: "card"
     description: |
       This is a card that shows the Lager.
->>>>>>> Stashed changes
