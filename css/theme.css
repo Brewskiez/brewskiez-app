@@ -12,3 +12,15 @@
 html {
   font-family: var(--font-primary);
 }
+
+.section-bg-catalogue {
+  background-color: var(--color-whatever);
+}
+
+.section-bg-home {
+  background-color: var(--color-primary);
+}
+
+.section-bg-info {
+  background-color: var(--color-secondary);
+}

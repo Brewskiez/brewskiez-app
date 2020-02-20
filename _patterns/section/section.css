@@ -7,6 +7,20 @@
   font-size: 110px;
 }
 
+.pink-type {
+  color: var(--color-primary);
+  font-size: 110px;
+}
+
+.white-type {
+  color: #fff;
+  font-size: 110px;
+}
+
+.white-font {
+  color: #fff;
+}
+
 hr {
   border-style: dashed;
 }
