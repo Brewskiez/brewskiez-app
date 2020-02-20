@@ -16,7 +16,7 @@ patternbot:
     colors.secondary: |
       The secondary colour is a slightly darker pink/red to add compliment to the primary colour.
     colors.accent: |
-      The accent colours is a darker colour for deep contrast
+      The accent colours is a darker colour for deep contrast.
   layouts:
     default: |
       The default layout should be used for every page, it includes the website's primary header & footer.
