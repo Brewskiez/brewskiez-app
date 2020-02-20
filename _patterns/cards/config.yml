@@ -41,3 +41,42 @@ patterns:
       - name: image
         type: string
         example: "beer-icon-01.png"
+<<<<<<< Updated upstream
+=======
+  beer-1:
+    title: "card"
+    description: |
+      This is a card shows the Czech Pilsner beer.
+  beer-2:
+    title: "card"
+    description: |
+      This is a card shows the Amber beer.
+  beer-3:
+    title: "card"
+    description: |
+      This is a card that shows the Witbier.
+  beer-4:
+    title: "card"
+    description: |
+      This is a card that shows the Hefeweizen.
+  beer-5:
+    title: "card"
+    description: |
+      This is a card that shows the Brown Ale.
+  beer-6:
+    title: "card"
+    description: |
+      This is a card that shows the Indian Pale Ale.
+  beer-7:
+    title: "card"
+    description: |
+      This is a card that shows the Porter.
+  beer-8:
+    title: "card"
+    description: |
+      This is a card that shows the Stout.
+  beer-9:
+    title: "card"
+    description: |
+      This is a card that shows the Lager.
+>>>>>>> Stashed changes

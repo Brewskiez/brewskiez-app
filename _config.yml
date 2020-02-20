@@ -2,4 +2,27 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Brewskies"
+  description: |
+    Brewskies is a web app to help users find good breweries and cool beers.
   font_url: "https://fonts.googleapis.com/css?family=Barlow+Condensed:400,400i,700,900&display=swap"
+<<<<<<< Updated upstream
+=======
+  colors:
+    background: "--color-whaetever"
+    accent: "--color-secondary"
+    patterns:
+      brand-logos: "--color-accent"
+  rationales:
+    typefaces.primary: |
+      Barlow condensed was chosen because it is simple and minimal font, yet with a bubblcharacter which portrays exactly what we wanted.
+    colors.primary: |
+      The primary colours are pink neutrals. These werchosen to be used throughout the website fobackground and text colour.
+    colors.secondary: |
+      The secondary colour is a slightly darker pinred to add compliment to the primary colour.
+    colors.accent: |
+      The accent colours is a darker colour for deecontrast.
+  layouts:
+    default: |
+      The default layout should be used for everpage, it includes the website's primarheader & footer.
+>>>>>>> Stashed changes
