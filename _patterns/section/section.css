@@ -13,11 +13,11 @@
 }
 
 .white {
-  color: #fff;
+  border-color: #fff;
 }
 
-.white-type {
-  color: #fff;
+.purp-type {
+  color: var(--color-accent);
   font-size: 110px;
 }
 
