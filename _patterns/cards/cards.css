@@ -1,4 +1,8 @@
-.cards {
+p {
+  font-family: var(--font-primary);
+}
+
+.card {
   background-color: #fff;
 }
 
@@ -7,12 +11,10 @@
   background-color: var(--color-accent);
   color: #ffffff;
   padding: .5em;
-  border-radius: 20px;
-  box-shadow: 3px 3px 3px grey;
 }
 
 .card-btn:hover {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary-dark);
 }
 
 img {
@@ -24,7 +26,7 @@ img {
 .btn {
   background-color: white;
   border: 1px solid @gray-light;
-  //border-radius: 1rem;
+  border-radius: 1rem;
   color: @gray-dark;
   padding: 0.5rem;
   text-transform: lowercase;
@@ -75,7 +77,7 @@ img {
   display: flex;
   flex: 1 1 auto;
   flex-direction: column;
-  padding: .5rem;
+  padding: 1rem;
 }
 
 .card__image {
@@ -106,7 +108,7 @@ img {
   font-size: 1.25rem;
   font-weight: 300;
   letter-spacing: 2px;
-  padding: .7rem;
+  padding: 0;
   text-transform: uppercase;
 }
 
@@ -115,4 +117,33 @@ img {
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
+}
+
+.process {
+  text-decoration: none;
+}
+
+h3 {
+  padding-bottom: 0;
+  color: var(--color-primary-dark);
+}
+
+.insta {
+  font-family: var(--font-primary);
+}
+
+.insta:hover {
+  color: var(--color-primary-dark);
+}
+
+.email-me {
+  font-family: var(--font-primary);
+}
+
+.email-me:hover {
+  color: var(--color-primary-dark);
+}
+
+.phone-me {
+  color: var(--color-accent);
 }
