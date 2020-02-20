@@ -1,0 +1,24 @@
+description: |
+  These are forms, that are used for signing up/in, as well as searching for items and locations.
+
+patterns:
+  address:
+    title: "Address Form"
+    description: |
+      This form is used to add your location.
+  email-form:
+    title: "Email Form"
+    description: |
+      This form is used to add your email.
+  first-name:
+    title: "First Name Form"
+    description: |
+      This form is used to add your first name.
+  last-name:
+    title: "Last Name Form"
+    description: |
+      This form is used to add your last name.
+  search:
+    title: "Search Form"
+    description: |
+      This form is used to search for items and locations.
