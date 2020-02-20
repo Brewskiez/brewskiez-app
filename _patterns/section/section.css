@@ -7,11 +7,50 @@
   font-size: 110px;
 }
 
+.pink-type {
+  color: var(--color-primary);
+  font-size: 110px;
+}
+
+.white {
+  border-color: #fff;
+}
+
+.purp-type {
+  color: var(--color-accent);
+  font-size: 110px;
+}
+
+.white-font {
+  color: #fff;
+}
+
 hr {
   border-style: dashed;
 }
 
 .acronym-icon {
-  width: 60%;
-  height: 60%;
+  width: 80%;
+  height: 80%;
+  left: 5em;
+  top: 7em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .acronym-icon {
+    width: 100%;
+    height: 100%;
+    left: -.65em;
+    top: 6.5em;
+    z-index: 3;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .acronym-icon {
+    left: 2em;
+    top: 8em;
+  }
 }

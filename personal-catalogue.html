@@ -3,22 +3,28 @@ layout: default
 ---
 
 <div class="grid">
-  <div class="unit xs-1 s-1 m-1 l-1">
-    {% pattern section/most-recent %}
+  <div class="unit xs-1 s-1-3 m-1-3 l-1-3 section-bg-catalogue">
+    <div class="island-2">
+      {% pattern section/most-recent %}
+    </div>
+    <div>
+      {% pattern section/acronym-for-catalogue %}
+    </div>
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1">
-    {% pattern section/acronym %}
+
+  <div class="unit xs-1 s-1-3 m-1-3 l-1-3 absolute section-bg-catalogue">
+    <div class="island catalogue-des">
+      {% pattern section/catalogue-description %}
+    </div>
+    <ul class="list-group-inline">
+      <li class="pad-t">{% pattern cards/beer-1 %}</li>
+      <li class="pad-t">{% pattern cards/beer-2 %}</li>
+      <li>{% pattern cards/beer-3 %}</li>
+      <li>{% pattern cards/beer-4 %}</li>
+      <li>{% pattern cards/beer-5 %}</li>
+      <li>{% pattern cards/beer-6 %}</li>
+      <li>{% pattern cards/beer-8 %}</li>
+      <li>{% pattern cards/beer-9 %}</li>
+    </ul>
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1">
-    {% pattern section/catalogue-description %}
-  </div>
-  <div class="unit inline-block">
-    {% pattern cards/beer-1 %}
-    {% pattern cards/beer-2 %}
-    {% pattern cards/beer-3 %}
-    {% pattern cards/beer-4 %}
-    {% pattern cards/beer-5 %}
-    {% pattern cards/beer-6 %}
-    {% pattern cards/beer-7 %}
-    {% pattern cards/beer-8 %}
-  </div>
+</div>

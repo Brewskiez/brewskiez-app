@@ -25,6 +25,37 @@ img {
   max-height: 60%;
 }
 
+.beer-card {
+  max-width: 100%;
+  display: inline-block;
+  margin-left: .75em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .beer-card {
+    position: relative;
+    left: 12em;
+    top: -10em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .beer-card {
+    left: 18.5em;
+    top: -12em;
+  }
+}
+
+@media only screen and (min-wdith: 60em) {
+
+  .beer-card {
+    left: 25em;
+    top: -23em;
+  }
+}
+
 .btn {
   background-color: white;
   border: 1px solid @gray-light;
