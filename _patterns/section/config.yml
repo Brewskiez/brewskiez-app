@@ -1,0 +1,8 @@
+description: |
+  These are section.
+
+patterns:
+  location-cards:
+    title: "Location Cards Section"
+    description: |
+      These are the cards that show the location...

@@ -6,6 +6,7 @@ patterns:
     title: "Location Card"
     description: |
       This is a card that shows the location...
+    width: 35em
     fields:
       - name: title
         type: string
@@ -22,3 +23,60 @@ patterns:
       - name: logo
         type: string
         example: "btp-logo.jpg"
+      - name: link
+        type: url
+        example: "#"
+  favourite-card:
+    title: "Favourite Card"
+    description: |
+      This is a card that shows the location...
+    width: 35em
+    fields:
+      - name: beertype
+        type: string
+        example: "Beer Type"
+      - name: name
+        type: string
+        example: "Vimmon"
+      - name: description
+        type: string
+        example: "Insert small description about the beer here."
+      - name: image
+        type: string
+        example: "beer-icon-01.png"
+  beer-1:
+    title: "card"
+    description: |
+      This is a card shows the Czech Pilsner beer.
+  beer-2:
+    title: "card"
+    description: |
+      This is a card shows the Amber beer.
+  beer-3:
+    title: "card"
+    description: |
+      This is a card that shows the Witbier.
+  beer-4:
+    title: "card"
+    description: |
+      This is a card that shows the Hefeweizen.
+  beer-5:
+    title: "card"
+    description: |
+      This is a card that shows the Brown Ale.
+  beer-6:
+    title: "card"
+    description: |
+      This is a card that shows the Indian Pale Ale.
+  beer-7:
+    title: "card"
+    description: |
+      This is a card that shows the Porter.
+  beer-8:
+    title: "card"
+    description: |
+      This is a card that shows the Stout.
+  beer-9:
+    title: "card"
+    description: |
+      This is a card that shows the Lager.

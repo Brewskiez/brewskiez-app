@@ -1,6 +1,5 @@
 .masthead {
   font-family: var(--font-primary);
-  background-color: var(--color-secondary);
 }
 
 .nav {
@@ -10,7 +9,7 @@
 
 .nav a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #000;
 }
 
 .nav a:hover {
@@ -35,5 +34,6 @@
 
   .left-nav {
     text-align: left;
+    align-content: left;
   }
 }
