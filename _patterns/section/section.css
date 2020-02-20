@@ -36,6 +36,27 @@ hr {
   top: 7em;
 }
 
+.beer-image {
+  width: 15em;
+  margin: auto;
+}
+
+.card-btn-info {
+  text-decoration: none;
+  background-color: var(--color-accent);
+  color: #ffffff;
+  padding: .5em;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px grey;
+  width: 20em;
+  margin: 0 auto;
+  max-width: inherit;
+}
+
+.card-btn-info:hover {
+  background-color: var(--color-secondary);
+}
+
 @media only screen and (min-width: 25em) {
 
   .acronym-icon {
