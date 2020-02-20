@@ -42,3 +42,19 @@ html {
     margin-right: 0;
   }
 }
+
+@media only screen and (min-width: 38em) {
+
+  .catalogue-des {
+    top: -28.25em;
+    left: 20em;
+  }
+}
+
+@media only screen and (min-wdith: 60em) {
+
+  .catalogue-des {
+    top: -36em;
+    left: 25em;
+  }
+}

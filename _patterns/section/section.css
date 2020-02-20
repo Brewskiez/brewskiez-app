@@ -46,3 +46,11 @@ hr {
     z-index: 3;
   }
 }
+
+@media only screen and (min-width: 38em) {
+
+  .acronym-icon {
+    left: 2em;
+    top: 8em;
+  }
+}

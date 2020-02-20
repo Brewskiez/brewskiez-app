@@ -40,6 +40,22 @@ img {
   }
 }
 
+@media only screen and (min-width: 38em) {
+
+  .beer-card {
+    left: 19em;
+    top: -14em;
+  }
+}
+
+@media only screen and (min-wdith: 60em) {
+
+  .beer-card {
+    left: 25em;
+    top: -23em;
+  }
+}
+
 .btn {
   background-color: white;
   border: 1px solid @gray-light;
