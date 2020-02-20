@@ -41,3 +41,39 @@ patterns:
       - name: image
         type: string
         example: "beer-icon-01.png"
+  Card:
+    title: "beer-1"
+    description: |
+      This is a card shows the Czech Pilsner beer.
+  Card:
+    title: "beer-2"
+    description: |
+      This is a card shows the Amber beer.
+  Card:
+    title: "beer-3"
+    description: |
+      This is a card that shows the Witbier.
+  Card:
+    title: "beer-4"
+    description: |
+      This is a card that shows the Hefeweizen.
+  Card:
+    title: "beer-5"
+    description: |
+      This is a card that shows the Brown Ale.
+  Card:
+    title: "beer-6"
+    description: |
+      This is a card that shows the Indian Pale Ale.
+  Card:
+    title: "beer-7"
+    description: |
+      This is a card that shows the Porter.
+  Card:
+    title: "beer-8"
+    description: |
+      This is a card that shows the Stout.
+  Card:
+    title: "beer-9"
+    description: |
+      This is a card that shows the Lager.
