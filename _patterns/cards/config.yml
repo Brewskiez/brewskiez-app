@@ -23,6 +23,9 @@ patterns:
       - name: logo
         type: string
         example: "btp-logo.jpg"
+      - name: link
+        type: url
+        example: "#"
   favourite-card:
     title: "Favourite Card"
     description: |

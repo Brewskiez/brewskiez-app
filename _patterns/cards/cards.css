@@ -31,6 +31,18 @@ img {
   margin-left: .75em;
 }
 
+.text-white {
+  color: #fff;
+}
+
+.fullheart {
+  filter: opacity(0);
+}
+
+.fullheart:hover {
+  filter: opacity(1);
+}
+
 @media only screen and (min-width: 25em) {
 
   .beer-card {
