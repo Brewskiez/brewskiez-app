@@ -36,15 +36,15 @@ img {
   .beer-card {
     position: relative;
     left: 12em;
-    top: -8em;
+    top: -10em;
   }
 }
 
 @media only screen and (min-width: 38em) {
 
   .beer-card {
-    left: 13em;
-    top: -10em;
+    left: 18.5em;
+    top: -12em;
   }
 }
 
