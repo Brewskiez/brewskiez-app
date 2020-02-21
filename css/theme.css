@@ -29,7 +29,6 @@ html {
 .bottom-content {
   background-color: #fff;
   z-index: -1;
-  margin-left: 0;
 }
 
 .catalogue-des {
@@ -43,30 +42,34 @@ html {
   .catalogue-des {
     position: absolute;
     width: 100%;
-    top: -22.5em;
-    left: 12em;
+
+    top: -21.5em;
+    left: 17em;
     margin-right: 0;
+    z-index: 5;
+    margin-top: 0;
   }
 
-  .section-bg-catalogue {
+  .bottom-content {
     background-color: var(--color-whatever);
-    width: 35%;
+    z-index: -1;
+    width: 33.25%;
   }
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen (min-width: 38em) {
 
   .catalogue-des {
-    top: -28.5em;
-    left: 20em;
+    top: -20em;
+    left: 19em;
   }
 }
 
-@media only screen and (min-wdith: 60em) {
+@media only screen and (min-width: 60em) {
 
   .catalogue-des {
-    top: -36em;
-    left: 30em;
+    top: -25em;
+    left: 23em;
   }
 
   .white-bg {

@@ -22,7 +22,7 @@
 }
 
 .logo-size {
-  width: 10%;
+  width: 15%;
 }
 
 @media only screen and (min-width: 38em) {
@@ -41,7 +41,11 @@
     align-content: left;
   }
 
-  .logo-size {
-    width: 20%;
+  .nav-labels {
+    right: -9em;
   }
+
+  .logo-size {
+    margin-left: -8em;
+    margin-bottom: -1.5em;
 }
