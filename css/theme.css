@@ -15,7 +15,7 @@ html {
 
 .section-bg-catalogue {
   background-color: var(--color-whatever);
-  height: 100%;
+  width: 35%;
 }
 
 .section-bg-home {
@@ -24,4 +24,41 @@ html {
 
 .section-bg-info {
   background-color: var(--color-secondary);
+}
+
+.catalogue-des {
+  margin-left: 1em;
+  margin-right: .5em;
+  margin-top: 4em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .catalogue-des {
+    position: absolute;
+    width: 100%;
+    top: -22.5em;
+    left: 12em;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .catalogue-des {
+    top: -26em;
+    left: 19em;
+  }
+}
+
+@media only screen and (min-wdith: 60em) {
+
+  .catalogue-des {
+    top: -36em;
+    left: 25em;
+  }
+
+  .white-bg {
+    background-color: #fff;
+  }
 }
