@@ -42,6 +42,10 @@ html {
   text-align: right;
 }
 
+.card-btn:hover {
+  background-color: var(--color-whatever);
+}
+
 @media only screen and (min-width: 25em) {
 
   .catalogue-des {
