@@ -45,37 +45,37 @@ html {
 @media only screen and (min-width: 25em) {
 
   .catalogue-des {
-    position: absolute;
-    width: 100%;
+    /* position: absolute; */
+    /* width: 100%; */
 
-    top: -21.5em;
-    left: 17em;
+    /* top: -21.5em; */
+    /* left: 17em; */
     margin-right: 0;
-    z-index: 5;
+    /* z-index: 5; */
     margin-top: 0;
   }
 
   .bottom-content {
     background-color: var(--color-whatever);
     z-index: -1;
-    width: 33.25%;
+    /* width: 33.25%; */
   }
 }
 
 @media only screen (min-width: 38em) {
 
-  .catalogue-des {
+  /* .catalogue-des {
     top: -20em;
     left: 19em;
-  }
+  } */
 }
 
 @media only screen and (min-width: 60em) {
 
-  .catalogue-des {
+  /* .catalogue-des {
     top: -25em;
     left: 23em;
-  }
+  } */
 
   .white-bg {
     background-color: #fff;
