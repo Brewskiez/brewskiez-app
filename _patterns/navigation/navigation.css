@@ -21,6 +21,10 @@
   width: 30px;
 }
 
+.logo-size {
+  width: 10%;
+}
+
 @media only screen and (min-width: 38em) {
 
   .right-nav {
@@ -35,5 +39,9 @@
   .left-nav {
     text-align: left;
     align-content: left;
+  }
+
+  .logo-size {
+    width: 20%;
   }
 }
