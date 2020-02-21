@@ -25,3 +25,53 @@ html {
 .section-bg-info {
   background-color: var(--color-secondary);
 }
+
+.bottom-content {
+  background-color: #fff;
+  z-index: -1;
+}
+
+.catalogue-des {
+  margin-left: 1em;
+  margin-right: .5em;
+  margin-top: 4em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .catalogue-des {
+    position: absolute;
+    width: 100%;
+    top: -21.5em;
+    left: 17em;
+    margin-right: 0;
+    z-index: 5;
+    margin-top: 0;
+  }
+
+  .bottom-content {
+    background-color: var(--color-whatever);
+    z-index: -1;
+    width: 33.25%;
+  }
+}
+
+@media only screen (min-width: 38em) {
+
+  .catalogue-des {
+    top: -20em;
+    left: 19em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .catalogue-des {
+    top: -25em;
+    left: 23em;
+  }
+
+  .white-bg {
+    background-color: #fff;
+  }
+}

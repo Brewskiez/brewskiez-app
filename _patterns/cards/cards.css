@@ -30,7 +30,7 @@ img {
 .beer-card {
   max-width: 100%;
   display: inline-block;
-  margin-left: .75em;
+  margin-left: -1em;
 }
 
 .text-white {
