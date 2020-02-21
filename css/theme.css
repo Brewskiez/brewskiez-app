@@ -42,7 +42,7 @@ html {
   text-align: right;
 }
 
-.card-btn:hover {
+.card-btn-info:hover {
   background-color: var(--color-whatever);
 }
 
