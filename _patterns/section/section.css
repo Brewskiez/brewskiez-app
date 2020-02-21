@@ -50,7 +50,7 @@ hr {
   box-shadow: 3px 3px 3px grey;
   width: 20em;
   margin: 0 auto;
-  max-width: inherit;
+  max-width: 100%;
 }
 
 .card-btn-info:hover {
