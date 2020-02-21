@@ -15,7 +15,7 @@ html {
 
 .section-bg-catalogue {
   background-color: var(--color-whatever);
-  height: 100%;
+  z-index: -1;
 }
 
 .section-bg-home {
@@ -42,6 +42,7 @@ html {
   .catalogue-des {
     position: absolute;
     width: 100%;
+
     top: -21.5em;
     left: 17em;
     margin-right: 0;

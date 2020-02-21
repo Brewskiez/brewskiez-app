@@ -30,7 +30,9 @@ img {
 .beer-card {
   max-width: 100%;
   display: inline-block;
+
   margin-left: -1em;
+
 }
 
 .text-white {
@@ -58,15 +60,17 @@ img {
 
   .beer-card {
     left: 18.5em;
-    top: -12em;
+    top: -14em;
+    margin-left: 1.25em;
   }
 }
 
 @media only screen and (min-wdith: 60em) {
 
   .beer-card {
-    left: 25em;
+    left: 27em;
     top: -23em;
+    margin-left: 5em;
   }
 }
 
