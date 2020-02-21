@@ -49,18 +49,18 @@ img {
 
 @media only screen and (min-width: 25em) {
 
-  .beer-card {
+  /* .beer-card {
     position: relative;
     left: 12em;
     top: -10em;
-  }
+  } */
 }
 
 @media only screen and (min-width: 38em) {
 
   .beer-card {
-    left: 18.5em;
-    top: -14em;
+    /* left: 18.5em;
+    top: -14em; */
     margin-left: 1.25em;
   }
 }
@@ -68,8 +68,8 @@ img {
 @media only screen and (min-wdith: 60em) {
 
   .beer-card {
-    left: 27em;
-    top: -23em;
+    /* left: 27em;
+    top: -23em; */
     margin-left: 5em;
   }
 }
