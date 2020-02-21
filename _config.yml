@@ -7,7 +7,7 @@ patternbot:
     Brewskies is a web app to help users find good breweries and cool beers.
   font_url: "https://fonts.googleapis.com/css?family=Barlow+Condensed:400,400i,700,900&display=swap"
   colors:
-    background: "--color-whatever"
+    background: "--color-primary-light"
     accent: "--color-secondary"
     patterns:
       brand-logos: "--color-accent"
