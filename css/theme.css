@@ -15,6 +15,7 @@ html {
 
 .section-bg-catalogue {
   background-color: var(--color-whatever);
+  z-index: -1;
 }
 
 .section-bg-home {
@@ -65,7 +66,7 @@ html {
 
   .catalogue-des {
     top: -36em;
-    left: 25em;
+    left: 30em;
   }
 
   .white-bg {
