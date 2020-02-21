@@ -15,7 +15,6 @@ html {
 
 .section-bg-catalogue {
   background-color: var(--color-whatever);
-  width: 35%;
 }
 
 .section-bg-home {
@@ -24,6 +23,12 @@ html {
 
 .section-bg-info {
   background-color: var(--color-secondary);
+}
+
+.bottom-content {
+  background-color: #fff;
+  z-index: -1;
+  margin-left: 0;
 }
 
 .catalogue-des {
@@ -40,6 +45,11 @@ html {
     top: -22.5em;
     left: 12em;
     margin-right: 0;
+  }
+
+  .section-bg-catalogue {
+    background-color: var(--color-whatever);
+    width: 35%;
   }
 }
 
