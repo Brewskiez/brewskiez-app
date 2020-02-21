@@ -57,6 +57,14 @@ hr {
   background-color: var(--color-secondary);
 }
 
+.chicken-icon {
+  margin: 0 auto;
+}
+
+.cheese-icon {
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 25em) {
 
   .acronym-icon {
