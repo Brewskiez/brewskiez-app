@@ -5,4 +5,40 @@ patterns:
   location-cards:
     title: "Location Cards Section"
     description: |
-      These are the cards that show the location...
+      These are the cards that show the location of the different restaurants that are affiliated with Brewskiezz app.
+  acronym-for-catalogue:
+    title: "Acronym for Catalogue"
+    description: |
+      This is section will be used for the Catalogue banner.
+  acronym-for-info:
+    title: "Acronym for Info Page"
+    description: |
+      This section will be used for the Info page banner.
+  acronym:
+    title: "Acronym Sectiom"
+    description: |
+      This section will be used for the main banners.
+  beer-description:
+    title: "Beer Description"
+    description: |
+      This section will show the beer description of the current beer the user is viewing.
+  catalogue-description:
+    title: "Catalogue Description"
+    description: |
+      This section will show the different beers the user has favourited.
+  create-heading:
+    title: "Create Heading"
+    description: |
+      This section will show the heading.
+  favourite-cards:
+    title: "Favourite Cards"
+    description: |
+      This section will show the user's beer favourites through the catalogue page.
+  location-cards:
+    title: "Location Cards"
+    description: |
+      This section will show the different location for the restaurants available in the area.
+  most-recent:
+    title: "Most Recent"
+    description: |
+      This section will be used for the catalogue and info banners.
